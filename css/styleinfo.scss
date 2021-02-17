@@ -1,0 +1,49 @@
+
+
+main{
+    .banner_wrapper{
+        background: transparent!important;
+        position: relative;
+        height: 700px;
+        &::before{
+            width: 100%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            background:#262f3aa8;
+            z-index: -1;
+        }
+        figure{
+            z-index: -2;
+            position: absolute;
+            top: 0;
+            left: 0;
+            img{
+                max-width: 100%;
+                min-height: 100%; 
+            }
+        } 
+        // ----banner-content------//
+            .Banner-Content2{
+                @include flex;
+                height: 700px;
+                justify-content: space-around;
+                .Bnr_cmn01{
+                    .contact-form{
+                        display: block!important;
+                        position: relative!important;
+                        right: 0;
+                        top:0;
+                    }
+                }
+            }
+        // ---banner--content--end--here--
+    }
+
+
+
+
+    .Our-Service_wrapper::before{
+        display: none!important;
+    }
+}
