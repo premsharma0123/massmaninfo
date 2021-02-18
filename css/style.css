@@ -4177,6 +4177,9 @@ main .banner_wrapper {
   background: transparent !important;
   position: relative;
   height: 700px;
+  background: url(../image/NewBanner2.png) no-repeat !important;
+  background-position: center;
+  background-size: cover;
 }
 
 main .banner_wrapper::before {
@@ -4186,6 +4189,7 @@ main .banner_wrapper::before {
   position: absolute;
   background: #262f3aa8;
   z-index: -1;
+  display: none;
 }
 
 main .banner_wrapper figure {
