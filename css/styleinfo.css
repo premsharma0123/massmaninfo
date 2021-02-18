@@ -1,1 +1,177 @@
-/* No CSS *//*# sourceMappingURL=styleinfo.css.map */
+main .banner_wrapper {
+  position: relative;
+  height: 700px;
+  background: transparent !important;
+  background: url(../image/New-Banner3.png) no-repeat !important;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+main .banner_wrapper::before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  background: #262f3aa8;
+  z-index: -1;
+  display: none;
+}
+
+main .banner_wrapper figure {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main .banner_wrapper figure img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+main .banner_wrapper .Banner-Content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 700px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 {
+  width: 48%;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+  font-size: 4.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.5;
+  color: #fff;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 span {
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animebg 24s linear infinite;
+          animation: animebg 24s linear infinite;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+  font-size: 2.1em;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.5;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6;
+  padding: 1.5rem 0;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: .5rem 1rem .5rem 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a:nth-child(1) {
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+  border: 1px solid #FDCF41;
+  color: #262f3a;
+  font-weight: 600;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a:nth-child(2) {
+  border: 1px solid #FDCF41;
+  background: transparent;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .hvr-shutter-out-horizontal:hover {
+  color: #262f3a;
+  border: 1px solid #fff;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .hvr-shutter-out-horizontal:hover::before {
+  background: #fff;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .hvr-shutter-out-horizontal::before {
+  background: #fff;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .contact-form {
+  display: block !important;
+  position: relative !important;
+  right: 0;
+  top: 0;
+}
+
+main .Client-Review-wrp {
+  position: relative;
+  padding: 3rem 0 1rem;
+}
+
+main .Client-Review-wrp::before {
+  content: '';
+  width: 100%;
+  height: 195px;
+  background: url(../image/curve3.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -186px;
+}
+
+main .Client-Review-wrp .Client-cnt ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .Client-Review-wrp .Client-cnt ul li {
+  list-style-type: none;
+  width: 18%;
+  margin: 0 .4rem;
+}
+
+main .Client-Review-wrp .Client-cnt ul li img {
+  max-width: 73%;
+}
+
+main .Our-Service_wrapper::before {
+  display: none !important;
+}
+
+main .Our-Service_wrapper .top_icon_wrp {
+  display: none !important;
+}
+/*# sourceMappingURL=styleinfo.css.map */

@@ -74,7 +74,37 @@ $(document).ready(function(){
       }
     });
     
+  // ------slider3333--
+$('.slider2').owlCarousel({
+  loop: false,
+  margin: 0,
+  autoplay: true,
+//  nav: true,
+  autoplayTimeout: 4000,
+  smartSpeed: 1500,
+  responsive: {
+      0: {
+          items: 5
+      },
+      600: {
+          items: 5
+      },
+      1000: {
+          items: 1
+      }
+  }
+});
+  
+// -----slider33333------
+
+
 })
+
+
+
+
+
+
 
 
 // const el = document.querySelector("#chatbox-popup");
