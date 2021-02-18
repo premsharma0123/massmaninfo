@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
     // ---end---here---//
-   $(".chatbox-open").click(function(){
+   $(".chatbox-open,.top-chat").click(function(){
       $(".chatbox-popup").fadeToggle("slow");
    })
    $(".chatbox-maximize").click(function(){

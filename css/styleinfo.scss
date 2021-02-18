@@ -140,6 +140,47 @@ main{
             display: none!important;
         }
     }
-
-
+    // ---Top---chat---//
+        .top-chat{
+            position: fixed;
+            top: 30%;
+            right: -130px;
+            transition: $transition;
+            &:hover{
+                right: 0;
+                transition: $transition;  
+            }
+            .child-chat{
+                @include flex;
+                padding: 0rem .8rem 0 0;
+                background: #fff;
+                background: linear-gradient(  45deg , #FDCF41, #FF9800); 
+                i{
+                    font-size: 1.1em;
+                    // padding: .8rem .8rem;
+                    padding: 1rem 1rem;
+                    margin: 0 .8rem 0 0;
+                    border-right: 1px solid #000;
+                    font-weight: bold;
+                    transform: $transition;
+                    &:hover{
+                        opacity: .77;
+                        transform: $transition;
+                        cursor: pointer;
+                    }
+                }
+                span{
+                    font-size: 1.1em;
+                    text-transform: $cap;
+                    font-weight: bold;
+                    transform: $transition;
+                    &:hover{
+                        opacity: .77;
+                        transform: $transition;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    // ---End---top--chat---//
 }

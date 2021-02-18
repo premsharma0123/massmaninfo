@@ -4396,4 +4396,67 @@ main .Our-Service_wrapper::before {
 main .Our-Service_wrapper .top_icon_wrp {
   display: none !important;
 }
+
+main .top-chat {
+  position: fixed;
+  top: 30%;
+  right: -130px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .top-chat:hover {
+  right: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .top-chat .child-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0rem .8rem 0 0;
+  background: #fff;
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
+}
+
+main .top-chat .child-chat i {
+  font-size: 1.1em;
+  padding: 1rem 1rem;
+  margin: 0 .8rem 0 0;
+  border-right: 1px solid #000;
+  font-weight: bold;
+  -webkit-transform: all 0.3s ease-in-out;
+          transform: all 0.3s ease-in-out;
+}
+
+main .top-chat .child-chat i:hover {
+  opacity: .77;
+  -webkit-transform: all 0.3s ease-in-out;
+          transform: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+main .top-chat .child-chat span {
+  font-size: 1.1em;
+  text-transform: capitalize;
+  font-weight: bold;
+  -webkit-transform: all 0.3s ease-in-out;
+          transform: all 0.3s ease-in-out;
+}
+
+main .top-chat .child-chat span:hover {
+  opacity: .77;
+  -webkit-transform: all 0.3s ease-in-out;
+          transform: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
