@@ -118,12 +118,14 @@ main{
              top: -186px; 
          }
          .Client-cnt{
+             width: 100%;
              ul{
+                 width: 100%;
                  @include flex;
                  justify-content: space-between;
                  li{
                      list-style-type: none;
-                     width: 18%;
+                     width: 100%;
                      margin: 0 .4rem;
                      img{
                          max-width: 73%;
@@ -146,6 +148,7 @@ main{
             top: 30%;
             right: -130px;
             transition: $transition;
+            z-index: 5;
             &:hover{
                 right: 0;
                 transition: $transition;  
@@ -184,3 +187,5 @@ main{
         }
     // ---End---top--chat---//
 }
+
+// @import 'media';

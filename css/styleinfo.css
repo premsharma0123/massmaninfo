@@ -140,7 +140,12 @@ main .Client-Review-wrp::before {
   top: -186px;
 }
 
+main .Client-Review-wrp .Client-cnt {
+  width: 100%;
+}
+
 main .Client-Review-wrp .Client-cnt ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,7 +164,7 @@ main .Client-Review-wrp .Client-cnt ul {
 
 main .Client-Review-wrp .Client-cnt ul li {
   list-style-type: none;
-  width: 18%;
+  width: 100%;
   margin: 0 .4rem;
 }
 
@@ -181,6 +186,7 @@ main .top-chat {
   right: -130px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 5;
 }
 
 main .top-chat:hover {

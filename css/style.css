@@ -3495,9 +3495,57 @@ aside.aside-wrp span i:hover {
     width: 28%;
     margin: 0 1rem;
   }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 3.5em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.6em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 1em;
+    padding: 1.3rem 0;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 3em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.4em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 1em;
+    padding: 1.3rem 0;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .contact-form {
+    width: 95%;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .Submit2 input {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .d1 label textarea#textarea1 {
+    width: 100%;
+    height: 100px;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em !important;
+  }
   .banner_wrapper .Banner_content .Bnr_left a {
     font-size: 1em;
     padding: 1.1rem 2.3rem;
@@ -3584,6 +3632,44 @@ aside.aside-wrp span i:hover {
 }
 
 @media only screen and (max-width: 992px) {
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 2.9em !important;
+    padding: 0 0 .6rem;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.3em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 1em !important;
+    padding: 1.1rem 0 !important;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .contact-form {
+    width: 95%;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .Submit2 input {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .d1 label textarea#textarea1 {
+    width: 100%;
+    height: 100px;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em !important;
+  }
+  main .Client-Review-wrp {
+    position: relative;
+    padding: 1rem 0 1rem !important;
+  }
+  main .Client-Review-wrp::before {
+    height: 133px !important;
+    top: -122px !important;
+  }
   .main-bar {
     right: 40px;
     top: 27px;
@@ -3757,6 +3843,60 @@ aside.aside-wrp span i:hover {
 }
 
 @media only screen and (max-width: 767px) {
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 2.9em !important;
+    padding: 0 0 .6rem;
+  }
+  main .banner_wrapper {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+  main .banner_wrapper .Banner-Content2 {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.3em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 1em !important;
+    padding: 1.1rem 0 !important;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .contact-form {
+    width: 95%;
+    -webkit-box-shadow: 0px 0px 2px 2px #262f3a;
+            box-shadow: 0px 0px 2px 2px #262f3a;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .Submit2 input {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .d1 label textarea#textarea1 {
+    width: 100%;
+    height: 100px;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em !important;
+  }
+  main .Client-Review-wrp {
+    position: relative;
+    padding: 4rem 0 1rem !important;
+  }
+  main .Client-Review-wrp::before {
+    height: 97px !important;
+    top: -96px !important;
+  }
+  .Bnr-Left.Bnr_cmn01 {
+    padding: 2rem 0 0 !important;
+  }
   .Thanks_Wrapper .Thanks_wrp {
     padding: 6rem 0 6rem !important;
   }
@@ -3911,7 +4051,132 @@ aside.aside-wrp span i:hover {
   }
 }
 
+@media only screen and (max-width: 576px) {
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 2.2em !important;
+    padding: 0 0 .4rem;
+  }
+  main .banner_wrapper {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+  main .banner_wrapper .Banner-Content2 {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.3em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 1em !important;
+    padding: 1rem 1rem !important;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .contact-form {
+    width: 95%;
+    -webkit-box-shadow: 0px 0px 2px 2px #262f3a;
+            box-shadow: 0px 0px 2px 2px #262f3a;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    padding: .9rem 1.8rem;
+    margin: .3rem 1rem .3rem 0;
+    font-size: 15px !important;
+  }
+  .contact-form .child-wrp form .Submit2 input {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .d1 label textarea#textarea1 {
+    width: 100%;
+    height: 100px;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em !important;
+  }
+  main .Client-Review-wrp {
+    position: relative;
+    padding: 4rem 0 1rem !important;
+  }
+  main .Client-Review-wrp::before {
+    height: 97px !important;
+    top: -96px !important;
+  }
+  .Bnr-Left.Bnr_cmn01 {
+    padding: 2rem 0 0 !important;
+  }
+  main .Client-Review-wrp .Client-cnt ul li img {
+    max-width: 37% !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Second-Main_wrapper .Our-Service_wrapper {
+    padding: 0rem 0 0 !important;
+  }
+}
+
 @media only screen and (max-width: 480px) {
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h1 {
+    font-size: 2.2em !important;
+    padding: 0 0 .4rem;
+  }
+  main .banner_wrapper {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+  main .banner_wrapper .Banner-Content2 {
+    height: auto !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 h4 {
+    font-size: 1.1em !important;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
+    font-size: 15px !important;
+    padding: .5rem 1rem !important;
+  }
+  .contact-form .child-wrp .head-box h2 {
+    font-size: 1.6em;
+  }
+  .Second-Main_wrapper .contact-form {
+    width: 100% !important;
+    -webkit-box-shadow: 0px 0px 2px 2px #262f3a;
+            box-shadow: 0px 0px 2px 2px #262f3a;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    padding: 0.9rem 1.7rem !important;
+    margin: 0.5rem 0.9rem 0.5rem 0 !important;
+  }
+  .contact-form .child-wrp form .Submit2 input {
+    font-size: 1em;
+  }
+  .contact-form .child-wrp form .d1 label textarea#textarea1 {
+    width: 100%;
+    height: 100px;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    font-size: 1em !important;
+  }
+  main .Client-Review-wrp {
+    padding: 2rem 0 1rem !important;
+  }
+  main .Client-Review-wrp::before {
+    height: 97px !important;
+    top: -96px !important;
+  }
+  .Bnr-Left.Bnr_cmn01 {
+    padding: 2rem 0 0 !important;
+  }
+  .contact-form .child-wrp .head-box {
+    padding: 0rem 0 .5rem;
+    width: 100%;
+  }
   .chat_img {
     right: -94px;
     bottom: 68px;
@@ -4218,6 +4483,14 @@ aside.aside-wrp span i:hover {
     margin: 0 0 1rem;
     padding: 1rem;
   }
+  main .Client-Review-wrp .Client-cnt ul li img {
+    max-width: 71% !important;
+    margin: 0 auto;
+  }
+  main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
+    padding: 0.8rem 1.2rem !important;
+    margin: 0.5rem 0.6rem 0.5rem 0 !important;
+  }
 }
 
 main .banner_wrapper {
@@ -4362,7 +4635,12 @@ main .Client-Review-wrp::before {
   top: -186px;
 }
 
+main .Client-Review-wrp .Client-cnt {
+  width: 100%;
+}
+
 main .Client-Review-wrp .Client-cnt ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4381,7 +4659,7 @@ main .Client-Review-wrp .Client-cnt ul {
 
 main .Client-Review-wrp .Client-cnt ul li {
   list-style-type: none;
-  width: 18%;
+  width: 100%;
   margin: 0 .4rem;
 }
 
@@ -4403,6 +4681,7 @@ main .top-chat {
   right: -130px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 5;
 }
 
 main .top-chat:hover {

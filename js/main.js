@@ -76,7 +76,7 @@ $(document).ready(function(){
     
   // ------slider3333--
 $('.slider2').owlCarousel({
-  loop: false,
+   loop: false,
   margin: 0,
   autoplay: true,
 //  nav: true,
@@ -84,13 +84,13 @@ $('.slider2').owlCarousel({
   smartSpeed: 1500,
   responsive: {
       0: {
-          items: 5
+          items: 1
       },
       600: {
-          items: 5
+          items: 4
       },
       1000: {
-          items: 1
+          items: 5
       }
   }
 });
