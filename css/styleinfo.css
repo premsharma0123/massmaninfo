@@ -86,10 +86,11 @@ main .banner_wrapper .Banner-Content2 .Bnr_cmn01 p {
 
 main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a {
   font-size: 1.1em;
-  display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem !important;
   margin: .5rem 1rem .5rem 0;
   border-radius: 5px;
+  height: inherit !important;
+  line-height: 1.5 !important;
   color: #fff;
 }
 
@@ -103,6 +104,10 @@ main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a:nth-child(1) {
 main .banner_wrapper .Banner-Content2 .Bnr_cmn01 a:nth-child(2) {
   border: 1px solid #FDCF41;
   background: transparent;
+}
+
+main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .links .btn:hover, main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .links .btn-large:hover, main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .links .btn-small:hover {
+  background: linear-gradient(45deg, #FDCF41, #FF9800);
 }
 
 main .banner_wrapper .Banner-Content2 .Bnr_cmn01 .hvr-shutter-out-horizontal:hover {

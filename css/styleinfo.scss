@@ -56,10 +56,11 @@ main{
                     }
                     a{
                         font-size: 1.1em;
-                        display: inline-block;
-                        padding: 1rem 2rem;
+                        padding: 1rem 2rem!important;
                         margin: .5rem 1rem .5rem 0;
-                        border-radius: 5px;
+                        border-radius: 5px; 
+                        height: inherit!important;
+                        line-height: 1.5!important;
                         color: $white;
                         &:nth-child(1){
                         background: linear-gradient(  45deg  , #FDCF41, #FF9800);
@@ -70,6 +71,11 @@ main{
                             border: 1px solid #FDCF41;
                             background: transparent;
                         }
+                    }
+                    .links .btn:hover, .links .btn-large:hover, .links .btn-small:hover{
+                        background: linear-gradient(
+                            45deg
+                            , #FDCF41, #FF9800);
                     }
                     .hvr-shutter-out-horizontal{
                         &:hover{
